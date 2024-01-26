@@ -4,55 +4,55 @@
 <html lang="en">
 
 <head>
-   @include('includes.head')
+   @include('Kidder.includes.head')
 </head>
 
 <body>
     
-        @include('includes.Spinner')
+        @include('Kidder.includes.Spinner')
 
 
-        @include('includes.Navbar')
-
-
-
-
-        @include('includes.Carousel')
+        @include('Kidder.includes.Navbar')
 
 
 
-        @include('includes.Facilities')
+
+        @include('Kidder.includes.Carousel')
 
 
-        @include('includes.About')
 
-       
-        @include('includes.Action')
+        @include('Kidder.includes.Facilities')
 
 
+        @include('Kidder.includes.About')
 
        
-
-        @include('includes.Classes')
-
+        @include('Kidder.includes.Action')
 
 
-        @include('includes.Appointment')
 
        
-        @include('includes.Team')
+
+        @include('Kidder.includes.Classes')
+
+
+
+        @include('Kidder.includes.Appointment')
+
+       
+        @include('Kidder.includes.Team')
 
 
 
 
-        @include('includes.Testimonial')
+        @include('Kidder.includes.Testimonial')
  
 
-        @include('includes.Footer')
+        @include('Kidder.includes.Footer')
 
        
-    @include('includes.BackToTop')
-    @include('includes.js')
+    @include('Kidder.includes.BackToTop')
+    @include('Kidder.includes.js')
 </body>
 
 </html>
