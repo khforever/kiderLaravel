@@ -33,7 +33,7 @@ class TeacherController extends Controller
      /**
       * Store a newly created resource in storage.
       */
-     public function store(TeacherRequest $request)
+     public function store( Request $request)
      {
  
          $data=$request->only("name","position","facebook","twitter","instagram");
