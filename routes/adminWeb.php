@@ -42,7 +42,7 @@ Route::group(["prefix"=>"Admins","as"=>"Admin.","middleware"=>"verified"],functi
 
     });
 
-
+////////////////////////////
     Route::group(["prefix"=>"Teacher","as"=>"Teacher."],function(){
         Route::get("create",[TeacherController::class,"create"])->name("create");
         Route::post("store",[TeacherController::class,"store"])->name("store");
